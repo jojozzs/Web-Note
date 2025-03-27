@@ -29,7 +29,7 @@ body {
 .botSide {
     background-color: var(--bg-secondary);
     width: 100vw;
-    height: 100px;
+    height: 400px;
     margin-top: 50px;
 }
 
@@ -45,4 +45,34 @@ body {
     font-size: 144px;
     font-weight: 900;
     color: #03665c;
+}
+
+.cardscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px #03665c;
+    margin: 15px;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary);
+    color: var(--font-primary);
+    text-align: center;
+}
+
+.cardTitle{
+    margin-bottom: 15px;
+}
+
+.cardBody{
+    margin: 15px;
+    text-align: justify;
 }
