@@ -5,41 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/ch3.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Web Note</title>
 </head>
 <body>
     <!-- one page, ada button tambah note, ada button hapus note, ada note card -->
     <div class="topSide">
-
+        <div id="header">
+            <h1>Note</h1>
+        </div>
+        <button id="addNoteButton">Tambah Catatan</button>
     </div>
     <div class="botSide">
         <div class = cardscontainer> 
             <div class = card>
-                <h3 class = cardTitle>Kartu1</h3>
-                <p class = cardBody>dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
-                    Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
-                    tincidunt, vel tristique lacus tincidunt</p>
-                <button class = CardEditButton>Edit</button>
-                <button class = CardDeleteButton>Delete</button>
+                <div class="cardTop">
+                 <h3 class = cardTitle>Kartu1</h3>
+                </div>
+                <div class="cardBottom">
+                    <p class = cardBody>dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
+                        Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
+                        tincidunt, vel tristique lacus tincidunt</p>
+                    <div class="cardButtonContainer">
+                        <button class = CardOpenButton>Open</button>
+                        <button class = CardEditButton>Edit</button>
+                        <button class = CardDeleteButton>Delete</button>
+                    </div>
+                </div>
             </div>
 
             <div class = card>
-                <h3 class = cardTitle>Kartu2</h3>
-                <p class = cardBody>dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
-                    Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
-                    tincidunt, vel tristique lacus tincidunt</p>
-                <button class = CardEditButton>Edit</button>
-                <button class = CardDeleteButton>Delete</button>
+                <div class="cardTop">
+                    <h3 class = cardTitle>Kartu2</h3>
+                </div>
+                <div class="cardBottom">
+                    <p class = cardBody>dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
+                        Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
+                        tincidunt, vel tristique lacus tincidunt</p>
+                    <div class="cardButtonContainer">
+                        <button class = CardOpenButton>Open</button>
+                        <button class = CardEditButton>Edit</button>
+                        <button class = CardDeleteButton>Delete</button>
+                    </div>
+                </div>
             </div>
 
             <div class = card>
-                <h3 class = cardTitle>Kartu3</h3>
-                <p class = cardBody>Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
-                    Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
-                    tincidunt, vel tristique lacus tincidunt</p>
-                <button class = CardEditButton>Edit</button>
-                <button class = CardDeleteButton>Delete</button>
+                <div class="cardTop">
+                    <h3 class = cardTitle>Kartu3</h3>
+                </div>
+                <div class="cardBottom">
+                    <p class = cardBody>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed enim sit amet augue tempus egestas. 
+                        Integer mattis lectus purus, eget convallis quam blandit id. Nullam elementum metus vitae mi 
+                        tincidunt, vel tristique lacus tincidunt
+                    </p>
+                    <div class="cardButtonContainer">
+                        <button class = CardOpenButton>Open</button>
+                        <button class = CardEditButton>Edit</button>
+                        <button class = CardDeleteButton>Delete</button>
+                    </div>
             </div>
         </div>
     </div>
